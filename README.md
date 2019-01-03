@@ -22,6 +22,12 @@ Si deseas convertir un número con decimales y mostrar la moneda:
         
 Lo cual te devuelve: *DOCE MIL TRESCIENTOS CUARENTA Y CINCO COLONES CON SESENTA Y SIETE CENTIMOS*
 
+
+
+		$letras = NumeroALetras::convertir('99999999999999.9999', 'pesos', 'centavos');
+		
+Devuelve: *NOVENTA Y NUEVE BILLONES NOVECIENTOS NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE MILLONES NOVECIENTOS NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE PESOS CON NOVENTA Y NUEVE CENTAVOS*
+
 ## Créditos
 
 Basado en la clase para PHP [AxiaCore/numero-a-letras](https://github.com/AxiaCore/numero-a-letras/blob/master/php/NumberToLetterConverter.class.php)
